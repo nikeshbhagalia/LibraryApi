@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace BaseApiWithSwagger.Controllers
+namespace LibraryApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

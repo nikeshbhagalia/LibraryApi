@@ -1,4 +1,4 @@
-﻿namespace BaseApiWithSwagger.Actions
+﻿namespace LibraryApi.Actions
 {
     public class DummyActions : IDummyActions
     {
