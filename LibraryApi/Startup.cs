@@ -1,5 +1,5 @@
-﻿using BaseApiWithSwagger.Actions;
-using BaseApiWithSwagger.Data;
+﻿using LibraryApi.Actions;
+using LibraryApi.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
 
-namespace BaseApiWithSwagger
+namespace LibraryApi
 {
     public class Startup
     {
@@ -34,7 +34,7 @@ namespace BaseApiWithSwagger
 
                 services.AddSwaggerGen(c =>
                 {
-                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BaseApiWithSwagger", Version = "v1" });
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "LibraryApi", Version = "v1" });
                 });
             }
             catch (Exception ex)
@@ -63,7 +63,7 @@ namespace BaseApiWithSwagger
 
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Base Api With Swagger V1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Library Api V1");
                     c.RoutePrefix = string.Empty;
                 });
 

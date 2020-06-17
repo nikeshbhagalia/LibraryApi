@@ -1,9 +1,9 @@
-﻿using BaseApiWithSwagger.Data.Models;
+﻿using LibraryApi.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 
-namespace BaseApiWithSwagger.Data
+namespace LibraryApi.Data
 {
     public class Context : DbContext
     {

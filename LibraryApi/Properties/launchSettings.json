@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "BaseApiWithSwagger": {
+    "LibraryApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "index.html",
