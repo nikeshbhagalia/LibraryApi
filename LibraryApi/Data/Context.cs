@@ -12,16 +12,16 @@ namespace LibraryApi.Data
         {
         }
 
-        public DbSet<Dummy> Dummies { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         public void Seed()
         {
-            if (!this.Dummies.Any())
+            if (!this.Books.Any())
             {
-                this.Dummies.Add(
-                    new Dummy
+                this.Books.Add(
+                    new Book
                     {
-                        Id = Guid.NewGuid().ToString(),
+                        Id = Guid.NewGuid(),
                     }
                 );
 
