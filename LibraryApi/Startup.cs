@@ -96,7 +96,7 @@ namespace LibraryApi
             }
             else
             {
-                //Data Source=Stats.db
+                //Data Source=Library.db
                 options.UseSqlite(connection);
             }
         }
