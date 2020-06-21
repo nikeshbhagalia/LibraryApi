@@ -15,5 +15,7 @@ namespace LibraryApi.Data.Models
         public int? Year { get; set; }
 
         public int Quantity { get; set; }
+
+        public int QuantityAvailable { get; set; }
     }
 }
