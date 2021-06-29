@@ -1,3 +1,3 @@
 # LibraryApi
 
-Just a side project for a basic library api with sqlite db
+Just a side project for a basic library api with sqlite database
